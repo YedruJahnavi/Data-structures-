@@ -72,14 +72,14 @@ void display()
 		if(front<=rear)
 		{
 			for(i=front;i<=rear;i++)
-				printf("%d",queue[i]);
+				printf("%4d",queue[i]);
 		}
 		else
 		{
 			for(i=front;i<=rear;i++)
-				printf("%d",queue[i]);
+				printf("%4d",queue[i]);
 			for(i=0;i<=rear;i++);
-				printf("%d",queue[i]);
+				printf("%4d",queue[i]);
 		}
 	}
 }
