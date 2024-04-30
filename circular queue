@@ -76,7 +76,7 @@ void display()
 		}
 		else
 		{
-			for(i=front;i<=rear;i++)
+			for(i=front;i<=MAX-1;i++)
 				printf("%4d",queue[i]);
 			for(i=0;i<=rear;i++);
 				printf("%4d",queue[i]);
