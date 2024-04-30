@@ -20,7 +20,7 @@ int main()
 		printf("3. display\n");
 		printf("4. exit\n");
 		printf("enter your choice");
-		scanf("%d",&item);
+		scanf("%d",&choice);
 		switch(choice)
 		{
 			case 1: printf("enter the element:\n");
