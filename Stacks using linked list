@@ -36,15 +36,15 @@ int main()
      { 
          printf("\nMENU\n"); 
 
-         printf("1. Push\n"); 
+         printf("1.insert front\n"); 
 
-         printf("2. Pop\n"); 
+         printf("2.delete front\n"); 
 
-         printf("3. Display\n"); 
+         printf("3.display\n"); 
 
-         printf("4. Exit\n"); 
+         printf("4.exit\n"); 
 
-         printf("Enter your choice:"); 
+         printf("Enter your choice:\n"); 
 
          scanf("%d",&choice);
          switch(choice) 
